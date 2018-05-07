@@ -1,0 +1,16 @@
+.image-square {
+	&.no-image {
+    @include media($large-screen) {
+      height: 30vw;
+    }
+  }
+
+  ol {
+  	font-size: 15px;
+    font-weight: normal;
+  }
+
+  li {
+  	margin-bottom: .6em;
+  }
+}

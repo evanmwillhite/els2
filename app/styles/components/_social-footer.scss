@@ -1,0 +1,14 @@
+.social-list {
+	font-size: 2em;
+
+	li {
+    display: block;
+    margin-bottom: .3em;
+    padding: 0;
+
+    @include media($medium-screen) {
+      display: inline;
+      margin: 0 .6em;
+    }
+	}
+}

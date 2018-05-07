@@ -1,0 +1,11 @@
+@mixin dark-bg {
+	&:before {
+		background-color: rgba(0, 0, 0, 0.28);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	}
+}
